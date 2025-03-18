@@ -226,3 +226,23 @@ section.presentazione p {
     font-size: .8rem;
     line-height: 1.5rem;
 }
+
+/* Footer */
+
+footer {
+    background-color: #7C69A4;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer div {
+    padding: 1rem 0.5em;
+}
+
+footer li {
+    display: inline-block;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-decoration: underline;
+}
