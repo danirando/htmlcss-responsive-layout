@@ -75,3 +75,38 @@ body {
 .col-10 {
     width: 10%;
 }
+
+body {
+    background-color: #F6F5F3;
+    font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+    font-weight: 600;
+    color: #FF9613;
+    text-shadow: 1px 1px 1px gray;
+
+}
+
+/* MAIN */
+
+main h3 {
+    color: #B6B5B5;
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+main h2 {
+    color: #4F3A6A;
+    font-size: 1.2rem;
+}
