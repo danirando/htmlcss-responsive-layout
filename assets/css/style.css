@@ -104,7 +104,7 @@ main section {
     padding: 0.8rem;
 }
 
-main section * {
+main section.tiramisu * {
     padding-bottom: 0.4rem;
 }
 
@@ -128,26 +128,70 @@ main h2 {
     display: block;
 }
 
-.card * {
+main section.tiramisu .card * {
     padding-bottom: 0;
 }
 
-.card .card-content {
+main section.tiramisu .card .card-content {
     padding: 1rem;
     background-color: white;
 }
 
-.card .card-content h4 {
+main section.tiramisu .card .card-content h4 {
     padding-bottom: 1rem;
 }
 
-.card .card-content li {
+main section.tiramisu .card .card-content li {
     font-size: 0.8rem;
     font-weight: 100;
     padding-bottom: 0.5rem;
 }
 
-.card {
+main section.tiramisu .card {
     padding-bottom: 0;
     box-shadow: 4px 4px 10px gray;
+}
+
+/* Loghi */
+
+.hidden {
+    display: none;
+}
+
+.loghi .contenitore {
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    padding-bottom: 0;
+}
+
+.loghi .contenitore .logo {
+
+    vertical-align: middle;
+    background-color: white;
+    border-radius: 40%;
+    padding: 5px 10px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.fa-facebook {
+    color: #3078F3;
+}
+
+.fa-twitter {
+    color: #019EFF;
+}
+
+.fa-instagram {
+    color: #DD4F87;
+}
+
+.fa-pinterest {
+    color: #E60000;
+}
+
+.fa-youtube {
+    color: #E52A33;
 }
