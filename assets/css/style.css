@@ -248,6 +248,26 @@ footer li {
     text-decoration: underline;
 }
 
+/* Responsive mobile xl */
+
+@media screen and (min-width: 576px) {
+    .clearfix {
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .presentazione img {
+        float: left;
+        padding-right: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .loghi .contenitore .logo {
+        padding: 5px 30px;
+    }
+}
+
 /* Responsive Tablet */
 
 @media screen and (min-width: 768px) {
