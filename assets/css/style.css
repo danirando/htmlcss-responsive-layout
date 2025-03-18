@@ -171,7 +171,7 @@ i {
 
     vertical-align: middle;
     background-color: white;
-    border-radius: 40%;
+    border-radius: 2rem;
     padding: 5px 10px;
     box-shadow: 4px 4px 10px gray;
 }
@@ -211,13 +211,14 @@ section.presentazione h2 {
     margin-bottom: 1.5rem;
 }
 
-picture {
+.picture {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-picture img {
-    width: 50%;
+.presentazione img {
+    width: 30%;
     padding-bottom: 1.5rem;
 }
 
@@ -245,4 +246,104 @@ footer li {
     padding-right: 0.5rem;
     padding-bottom: 0.5rem;
     text-decoration: underline;
+}
+
+/* Responsive Tablet */
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        text-align: left;
+        padding-left: 0.5rem;
+    }
+
+    .tiramisu h2 span {
+        display: inline-block;
+    }
+
+    main section.tiramisu h2 {
+        font-size: 2rem;
+    }
+
+    main section.tiramisu .card .card-content ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section.tiramisu .card .card-content li {
+        min-width: calc(100% / 3);
+
+    }
+
+    .loghi .contenitore .logo {
+        padding: 5px 50px;
+    }
+
+    .banner.hidden {
+        display: block;
+    }
+
+    .clearfix {
+        content: '';
+        clear: both;
+        display: table;
+    }
+
+    .presentazione img {
+        float: left;
+        padding-right: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    main {
+        max-width: 780px;
+        margin: 0 auto;
+    }
+}
+
+/* Responsive desktop */
+
+@media screen and (min-width: 992px) {
+
+    main section.tiramisu .card .card-content ul {
+        display: block;
+    }
+
+    main section.tiramisu h2 {
+        font-size: 3rem;
+    }
+
+    main section.tiramisu .card {
+        display: flex;
+    }
+
+    main section.tiramisu .card .card-content li {
+        display: block;
+    }
+
+    .loghi .contenitore span .hidden {
+        display: inline-block;
+        padding-left: 3px;
+        text-align: center;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .loghi .contenitore span {
+        font-size: 0.7rem;
+    }
+
+    .contenitore-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contenitore-footer * {
+        padding: 0;
+    }
+
+    main {
+        max-width: 967px;
+        margin: 0 auto;
+    }
 }
