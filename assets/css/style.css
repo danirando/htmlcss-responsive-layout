@@ -197,6 +197,14 @@ i {
     color: #E52A33;
 }
 
+.contenitore .logo:hover {
+    cursor: pointer;
+}
+
+.banner:hover {
+    cursor: pointer;
+}
+
 /* Presentazione */
 
 section.presentazione h2 {
